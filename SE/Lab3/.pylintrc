@@ -1,0 +1,15 @@
+[MASTER]
+ignore=venv,__pycache__
+
+[FORMAT]
+max-line-length=100
+
+[BASIC]
+function-naming-style=snake_case
+variable-naming-style=snake_case
+class-naming-style=PascalCase
+
+[DESIGN]
+max-args=6
+max-locals=15
+max-branches=12
